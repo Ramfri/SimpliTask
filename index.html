@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/styles-min.css">
+</head>
+
+<body class="">
+
+    <header class="header container d-flex flex-center">
+        <div class="header__time"></div>
+        <div class="header__newtask d-flex flex-center">
+            <textarea placeholder="Add a new task" rows="1" id="newTask"></textarea>
+
+            <button class="btn btn-primary d-flex flex-center" title="Add Task" id="addTaskBtn">
+                <img src="assets/icons/add.png" class="icon" alt="">
+            </button>
+        </div>
+    </header>
+
+    <main class="main container">
+        <section id="tasksContainer">
+            <h2 class="title">To Do</h2>
+
+        </section>
+
+        <section id="tasksCompletedContainer">
+            <h2 class="title">Completed</h2>
+
+
+        </section>
+    </main>
+
+    <button id="changeThemeBtn" class="btn" title="Change Theme">
+        <img src="assets/icons/sun.png" class="icon" alt="">
+    </button>
+
+    <script type="module" src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
+
+
